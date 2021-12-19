@@ -25,4 +25,5 @@ das referidas partes, deixando somente o conteudo princpial no index.php;
 ->adicionando o CSS que estava faltando
 
 8-tela de registro de contato
-->
+->criar a pagina show.php
+
