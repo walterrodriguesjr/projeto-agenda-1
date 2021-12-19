@@ -1,0 +1,28 @@
+1-introdução do projeto 
+
+2-configurações do projeto
+->Criação e configuração das pastas do projeto(config, url, css, img, templates);
+->criado o link dentro de url.php   $BASE_URL = "http://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI'] . '?') . '/';
+->criar o index.php (inserir o include_once), incluir links bootstrap e font-awesome e css;
+
+3-criando templates
+->cria dentro da pasta templates, os arquivos header.php e footer.php, em seguida, a separação
+das referidas partes, deixando somente o conteudo princpial no index.php;
+->criação do html, criação dos link (a href no index) e do create.php;
+
+4-criando o banco de dados
+->cria o arquivo connection.php na config, e os testes de erro de conexão (try, catch)
+
+5-criando arquivo de processamento
+->cria na pasta config o process.php, que vai fazer o trabalho com o banco de CRUD 
+->faz os links com connection e url.php
+->criar a mensagem de sessão (//limpa a mensagem)
+
+6-criando a página inicial
+->inserindo html no index.php (tabelas, dados dinamicos com php, icones);
+
+7-finalizando CSS da home
+->adicionando o CSS que estava faltando
+
+8-tela de registro de contato
+->
