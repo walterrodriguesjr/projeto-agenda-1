@@ -27,3 +27,7 @@ das referidas partes, deixando somente o conteudo princpial no index.php;
 8-tela de registro de contato
 ->criar a pagina show.php
 
+9-Componente de voltar páginas
+->criando botão voltar página com html e estilizando com CSS 
+
+

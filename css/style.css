@@ -18,7 +18,7 @@
     background-color: #007bff;
 }
 
-.col-id{
+.col-id {
     font-weight: bold;
 }
 
@@ -40,7 +40,7 @@
     color: #007bff;
 }
 
-.delete-btn{
+.delete-btn {
     background-color: transparent;
     border: none;
     padding: 0;
@@ -63,4 +63,14 @@
     max-width: 500px;
     margin: 0 auto;
     margin-top: 30px;
+}
+
+/* SHOW / CONTATO INDIVIDUAL */
+#view-contact-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: bold;
 }
