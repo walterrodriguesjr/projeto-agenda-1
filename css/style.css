@@ -1,5 +1,3 @@
-
-
 .navbar-brand img {
     width: 50px;
 }
@@ -41,6 +39,9 @@
 .edit-icon {
     color: #007bff;
 }
+.delete-form{
+    display: inline-block;
+}
 
 .delete-btn {
     background-color: transparent;
@@ -77,3 +78,34 @@
     font-weight: bold;
 }
 
+/* BOTÃO DINÂMICO VOLTAR */
+#back-link-container {
+    display: block;
+    width: 500px;
+    margin: 30px auto 0;
+}
+
+#back-link {
+    border: 1px solid #007bff;
+    color: #007bff;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#back-link:hover {
+    text-decoration: none;
+}
+
+/* CREATE */
+#create-form, #edit-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* MOBILE */
+@media(max-width: 480px) {
+
+    #home-link {
+        display: none;
+    }
+};
